@@ -11,3 +11,34 @@ h1,h2,h3,h4,h5,h6, p{
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: #fff;
+   
+}
+header img{
+    height: 56px;
+    width: 48px;
+    margin-right: 14px;
+}
+.header-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-content{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 45px;
+
+}
