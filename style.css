@@ -1,44 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Mulish", sans-serif;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-h1,h2,h3,h4,h5,h6, p{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color: #fff;
-   
-}
-header img{
-    height: 56px;
-    width: 48px;
-    margin-right: 14px;
-}
-.header-wrapper{
+
+/* nav bar style */
+
+.nav-head {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;  
     display: flex;
-    justify-content: space-between;
+    margin-top: 50px;
 }
-.logo-content{
+
+.logo-container {
     display: flex;
     align-items: center;
+    width: 50%;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: end;
-}
-nav ul li a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: black;
-    margin-left: 45px;
 
+.logo-container p {
+    margin-left: 15px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
 }
+
+.logo-container span {
+    color: #FF5400;
+}
+
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container a {
+    text-decoration: none;
+    color: #424247;   
+    font-size: 18px; 
+    font-weight: 600; 
+}
+.items-container a span{
+    color: #FF5400;
+}
+
+/* nav bar style end */
