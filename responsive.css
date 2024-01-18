@@ -11,4 +11,15 @@
         margin-left: 50px;
         gap: 15px;
     }
+    .popular-section {
+       flex-direction: column;
+    }
+    .text-container {   
+        width: 100%;
+    }
+    .popular-img-container {
+        width: 100%;
+        margin-top: 25px;
+    }
+
 }
